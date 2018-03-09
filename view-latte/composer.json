@@ -1,0 +1,21 @@
+{
+  "name": "note/view-latte",
+  "description": "Latte for NoteFw",
+  "type": "library",
+  "license": ["BSD-3-Clause"],
+  "homepage": "https://github.com/notefw/router-nette",
+  "authors": [
+    {
+      "name": "Milan Felix Sulc",
+      "homepage": "https://jfx.cz"
+    }
+  ],
+  "require": {
+    "latte/latte": "~2.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Note\\Extra\\View\\Latte\\": "src"
+    }
+  }
+}

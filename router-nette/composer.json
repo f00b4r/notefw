@@ -1,0 +1,21 @@
+{
+  "name": "note/router-nette",
+  "description": "NetteRouter for NoteFw",
+  "type": "library",
+  "license": ["BSD-3-Clause"],
+  "homepage": "https://github.com/notefw/router-nette",
+  "authors": [
+    {
+      "name": "Milan Felix Sulc",
+      "homepage": "https://jfx.cz"
+    }
+  ],
+  "require": {
+    "nette/application": "~2.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Note\\Extra\\Router\\Nette\\": "src"
+    }
+  }
+}

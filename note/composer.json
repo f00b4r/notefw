@@ -1,0 +1,22 @@
+{
+  "name": "note/app",
+  "description": "Core of NoteFw",
+  "type": "library",
+  "license": ["BSD-3-Clause"],
+  "homepage": "https://github.com/notefw/app",
+  "authors": [
+    {
+      "name": "Milan Felix Sulc",
+      "homepage": "https://jfx.cz"
+    }
+  ],
+  "require": {
+    "nette/di": "~2.3.0",
+    "nette/http": "~2.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Note\\": "src"
+    }
+  }
+}

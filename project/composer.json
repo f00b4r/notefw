@@ -1,0 +1,33 @@
+{
+  "name": "note/project",
+  "description": "NoteFw simple project",
+  "type": "project",
+  "license": ["BSD-3-Clause"],
+  "homepage": "https://github.com/notefw/project",
+  "authors": [
+    {
+      "name": "Milan Felix Sulc",
+      "homepage": "https://jfx.cz"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../note"
+    },
+    {
+      "type": "path",
+      "url": "../router-nette"
+    },
+    {
+      "type": "path",
+      "url": "../view-latte"
+    }
+  ],
+  "require": {
+    "note/app": "dev-master",
+    "note/router-nette": "dev-master",
+    "note/view-latte": "dev-master",
+    "tracy/tracy": "~2.3.0"
+  }
+}
